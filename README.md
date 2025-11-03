@@ -30,14 +30,6 @@ _We want you to get the most out of this project—it's all about learning, cont
 
 <hr>
 
-In our project, we believe in creating an open and inclusive space for everyone. To ensure a respectful and positive community, follow these key guidelines:
-
-Respect Each Other: Treat all participants kindly and respectfully.
-Use Inclusive Language: Keep your language welcoming and inclusive when communicating.
-Accept Constructive Feedback: Be open to constructive criticism and focus on what's best for the community.
-No Unacceptable Behavior: Avoid behaviors like harassment, trolling, insults, or anything that's inappropriate in a professional setting.
-We're committed to maintaining a positive and inclusive community, and your cooperation is crucial for making this a safe and enjoyable space for everyone.
-
 
 Setting up the Project
 To setup the project locally follow the steps:
