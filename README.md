@@ -121,4 +121,11 @@ Selective Staging: Make sure you stage only the necessary commits when raising a
 Rebasing: Check if your PR is rebased to the latest main/development branch. More details can be found in Request for Changes/Pull Requests.
 Use Default PR Template: Make sure your PR follows our default PR template.
 These guidelines help maintain a smooth and organized contribution process. I appreciate your attention to these details, and your contributions are valued. Thanks for being part of our open-source community!! Lets all help each other for mutual growth!!
+Commit Format: When making commits, follow this format: tag-#issue-number: <commit-message>. The tag should be one of these: fix, feat, docs, chore, refactor.
+PR Title: When creating a Pull Request, the title should be in this format: tag-#issue-number: <Title-of-PR>. Again, use the same tags: fix, feat, docs, chore, refactor.
+Coding Standards: Ensure that your code aligns with our coding standards and guidelines. For example, use naming conventions like file-name.ts, not fileName.ts.
+Selective Staging: Make sure you stage only the necessary commits when raising a PR.
+Rebasing: Check if your PR is rebased to the latest main/development branch. More details can be found in Request for Changes/Pull Requests.
+Use Default PR Template: Make sure your PR follows our default PR template.
+These guidelines help maintain a smooth and organized contribution process. I appreciate your attention to these details, and your contributions are valued. Thanks for being part of our open-source community!! Lets all help each other for mutual growth!!
   
