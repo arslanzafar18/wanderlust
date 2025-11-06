@@ -131,13 +131,15 @@ To contribute to this project, you need to create a fork of the repository and t
      # Create a new branch to work on
      git switch --create bugfix/1234-name-of-the-issue
      ```
+Commit your changes, then push the branch to your fork with `git push -u fork`
+     
    - If you want to reduce your Docker image size use Multi-stage build (Given on Branch "devops") Dockerfile's for both frontend and backend. Want To Run the Project in Kubernetes cluster. Explore "devops" Branch.
      ```sh
      # Switch to devops branch
-     # Click of kubernetes>kubeadm.md
-     # Follow the installtion instructions.
+     # Click on kubernetes>kubeadm.md
+     # Follow the installtion instructions, then
      # Click on kubernetes folder. And follow the instruction.
      ```
        
-Commit your changes, then push the branch to your fork with `git push -u fork`
+
 
