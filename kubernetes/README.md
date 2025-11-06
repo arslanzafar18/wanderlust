@@ -17,7 +17,7 @@ sudo su
 #
 2) Clone code from remote repository (GitHub) :
 ```bash
-git clone -b devops https://github.com/DevMadhup/wanderlust.git
+git clone -b devops https://github.com/arslanzafar18/Wanderlust-Mern-Stack-Blogging-Project.git
 ```
 
 #
@@ -76,7 +76,7 @@ vi .env.docker
 #
 9) Build frontend docker image : 
 ```bash
-docker build -t madhupdevops/frontend-wanderlust:v2.1.8 .
+docker build -t arslanzafar18/backend-wanderlust:latest .
 ```
 ![Dockerfile frontend](https://github.com/DevMadhup/wanderlust/blob/devops/kubernetes/assets/docker%20frontend%20build.png)
 
@@ -100,7 +100,7 @@ cd ../backend/
 #
 12) Build backend docker image : 
 ```bash
-docker build -t madhupdevops/backend-wanderlust:v2.1.8 .
+docker build -t arslanzafar18/backend-wanderlust:latest .
 ```
 ![Backend dockerfile](https://github.com/DevMadhup/wanderlust/blob/devops/kubernetes/assets/docker%20backend%20build.png)
 
@@ -119,8 +119,8 @@ docker login
 ![docker login](https://github.com/DevMadhup/wanderlust/blob/devops/kubernetes/assets/docker%20login.png)
 
 ```bash
-docker push madhupdevops/frontend-wanderlust:v2.1.8
-docker push madhupdevops/backend-wanderlust:v2.1.8
+docker push arslanzafar18/backend-wanderlust:latest
+docker push arslanzafar18/frontend-wanderlust:latest
 ```
 
 #
