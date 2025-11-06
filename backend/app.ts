@@ -14,16 +14,29 @@ const app = express();
 
 app.use(
   cors({
-    // added origin
-    origin: [FRONTEND_URL as string, 'http://localhost:3000'],
-    credentials: true,
+    origin: ['http://13.53.159.88:5173'], // only your deployed frontend
+    credentials: true, // allow cookies to be sent
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
   })
 );
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(compression());
-app.use(session({ secret: 'secret', resave: false, saveUninitialized: false }));
+app.use(
+  session({
+    secret: 'secret',
+    resave: false,
+    saveUninitialized: false,
+    cookie: {
+      httpOnly: true,
+      secure: false, // set to true if using HTTPS
+      sameSite: 'lax',
+    },
+  })
+);
 app.use(passport.initialize());
 app.use(passport.session());
 
